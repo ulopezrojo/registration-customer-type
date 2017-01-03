@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Customer\Block\Form\Register" type="Platform\Customer\Block\Form\Register" />
+    <preference for="Magento\Customer\Controller\Account\Create" type="Platform\Customer\Controller\Account\Create" />
+    <preference for="Magento\Customer\Controller\Account\CreatePost" type="Platform\Customer\Controller\Account\CreatePost" />
+</config>
